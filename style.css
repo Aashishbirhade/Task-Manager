@@ -1,0 +1,116 @@
+
+body {
+font-family: Arial, sans-serif;
+background-color:palegoldenrod;
+background-repeat: no-repeat;/* Replace 'background.jpg' with your image file path */
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 600px;
+margin: 20px auto;
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+.input-container {
+display: flex;
+margin-bottom: 20px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="date"] {
+flex: 1;
+padding: 10px;
+margin-right: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.input-container button {
+padding: 10px 20px;
+border: none;
+background-color: #007bff;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.input-container button:hover {
+background-color: #0056b3;
+}
+
+.filter-container {
+margin-bottom: 10px;
+text-align: center;
+}
+
+.filter-container label {
+color: #333;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-bottom: 1px solid #eee;
+background-color: rgba(255, 255, 255, 0.9);
+}
+
+.completed {
+text-decoration: line-through;
+color: #999;
+}
+
+.edit-btn{
+padding: 5px 10px;
+border: none;
+background-color: #007bff;
+color: #fff;
+border-radius: 3px;
+cursor: pointer;
+margin-left: 5px;
+}
+
+.complete-btn {
+padding: 5px 10px;
+border: none;
+background-color: #50cf47;
+color: #fff;
+border-radius: 3px;
+cursor: pointer;
+margin-left: 5px;
+}
+
+.delete-btn{
+padding: 5px 10px;
+border: none;
+background-color: #dc3545;
+color: #fff;
+border-radius: 3px;
+cursor: pointer;
+margin-left: 5px;
+}
+.complete-btn:hover{
+background-color: #25f317;
+}
+.delete-btn:hover {
+background-color: #c82333;
+}
+
